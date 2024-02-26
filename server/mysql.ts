@@ -1,10 +1,11 @@
 import mysql from "mysql2";
 
 const connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "voedselbank",
+  host: "voedselbank-voedselbank.a.aivencloud.com",
+  user: "avnadmin",
+  password: "AVNS_dKIsSTyk8Jby6v9_o9G",
+  database: "defaultdb",
+  port: 12565,
 });
 
 connection.connect((err) => {
