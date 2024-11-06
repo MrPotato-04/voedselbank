@@ -2,7 +2,7 @@ import mysql from "mysql2";
 
 
 const connection = mysql.createConnection({
-  host: "voedselbank-voedselbank.a.aivencloud.com",
+  host: "voedselbank-voedselbank.f.aivencloud.com",
   user: "avnadmin",
   password: process.env.DB_KEY,
   database: "voedselbank",
